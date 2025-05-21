@@ -1,3 +1,4 @@
+import {evaluate} from 'mathjs'
 export default function Calculator()
 {
     const numberButtons = ['1','2','3','4','5','6','7','8','9','0'];
@@ -9,7 +10,7 @@ export default function Calculator()
 
     const handleEquation = () => {
         const equation = document.getElementById("input").value;
-        document.getElementById("input").value = eval(equation);
+        document.getElementById("input").value = evaluate(equation);
     }
     
     const handleClear = () => {
