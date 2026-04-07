@@ -31,7 +31,7 @@ export default function Calculator()
             <p 
                  className="text-center text-xl mb-4"
             >
-                (React.js and Tailwind CSS)
+                (React.js & Tailwind CSS)
             </p>
 
             <div 
